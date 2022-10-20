@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+.bio-sec{
+    padding-top: 20px;
+    border-bottom: 2px solid #e4e6e9;
+}
+.mybio{
+    width: 25%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    top: 70px;
+    position: absolute;
+    background-color: #f0f2f5;
+}
+.mybio ul li{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+}
+.mybio ul{
+    padding: 0;
+    align-items: center;
+}
+.mybio ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 20px;
+    color: black;
+}
+.mybio ul li:hover{
+    background-color: aqua;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}

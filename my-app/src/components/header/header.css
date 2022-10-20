@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+}
+.logo input{
+    padding: 13px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 50px;
+    background: #f0f2f5;
+}
+.chats{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.chats ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+.chats ul li a{
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 100%;
+    background-color: #f0f2f5;
+    line-height: 53px;
+    color: black;
+}
+.header-sec{
+    position: relative;
+}
+.manu-list{
+    position: absolute;
+    top: 20px;
+    left: 25%;
+}
+.option-list{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}

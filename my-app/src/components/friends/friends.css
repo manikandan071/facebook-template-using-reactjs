@@ -1,0 +1,60 @@
+.friends-list{
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    top: 70px;
+    left: 75%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: #f0f2f5;
+}
+.birthday h4{
+    padding: 20px 0;
+    font-size: 25px;
+    color: #797b7f;
+    margin-left: 20px;
+}
+.birthday-list{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    border-bottom: 2px solid #e4e6e9;
+}
+span{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.online h3{
+    margin-left: 20px;
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 25px;
+    color: #797b7f;
+}
+.online{
+    border-bottom: 2px solid #e4e6e9;
+}
+.online ul{
+    padding: 0;
+}
+.online ul li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 10px 20px;
+}
+.online ul li a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2d2d2e;
+    line-height: 18px;
+}
+.online ul li:hover{
+    background-color: aqua;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}
